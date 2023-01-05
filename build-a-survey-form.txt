@@ -1,0 +1,55 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<main>
+  <header></header>
+  <body>
+    <h1 id="title">freeCodeCamp Surrrvey Form</h1>
+    <p id="description">Help us mateys to improve our website!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Davy Jones" required/></label>
+        <label for="email" id="email-label">Email<input id="email" type="email" placeholder="sealocker@deepblue" required/></label>
+        <label for="number" id="number-label">Yer Seasons<input id="number" type="number" min="13" max="120" placeholder="1,2,3..." required/>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">Which option best describes yer current role?<select id="dropdown" name="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Apprentice</option>
+          <option value="2">Master</option>
+          </fieldset>
+          <fieldset>
+          <label for="certainly">
+<input type="radio" id="certainly" name="recommendation" value="0" class="inline"/>Certainly</label>
+          <label for="likely">
+<input type="radio" id="likely" name="recommendation" value="1" class="inline"/>Likely</label>
+          </label>
+          <label for="not-ready-to-jump-the-gun">
+<input type="radio" id="not-ready-to-jump-the-gun" name="recommendation" value="2" class="inline"/>Not Ready to Jump the Gun</label>
+          </fieldset>
+          <fieldset>
+          <label for="improvements">What would ye like to see improved?</label>
+          <input id="improvements" type="checkbox" name="improvements" class="inline" value="0">Front-End Projects</input>
+          <input id="improvements" type="checkbox" name="improvements" class="inline" value="1">Back-End Projects</input>
+          <input id="improvements" type="checkbox" name="improvements" class="inline" value="2">Data Visualization</input>
+          </fieldset>
+          <fieldset>
+            <label for="comments">Any Comments or Suggestions
+            <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Walk the plank!"></textarea>
+           </label>
+        <input id="submit" type="submit"/>
+    </form>
+  </body>
+  <footer></footer>
+</main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
